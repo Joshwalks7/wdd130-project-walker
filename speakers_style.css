@@ -1,0 +1,34 @@
+body{background-color: #6BC0E9; min-height: 100vh; /* Ensure the body takes up the full viewport height */
+  background-image: linear-gradient(to right, #134D82  0%, #134D82 10%, #6BC0E9 10%, #6BC0E9 90%, #134D82 90%, #134D82 100%);
+  /* The background-image property creates the split background */
+  /* 'to right' creates a horizontal split */
+  /* navy 0%, navy 50% sets the first color from 0% to 50% */
+  /* darkgreen 50%, darkgreen 100% sets the second color from 50% to 100% */
+  margin: 0; /* Remove default body margin */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */}
+header{display: grid; grid-template-columns: 1fr 3fr 1fr; text-align: center; background-color: #F5CB13; margin-top: -8px;
+    margin-left: -8px; margin-right: -8px; padding-top: 50px; padding-bottom: 25px; margin-right: 10%; margin-left: 10%;}
+
+main{text-align: center; margin: 0 auto; max-width: 90%;}
+main p{max-width: 55%; margin: 0 auto;}
+
+.head_description{max-width: 70%;}
+
+.break_line{max-width: 50%;}
+
+.person1{background-color: #D11013; margin-left: 600px; margin-right: 600px; padding-bottom: 5px; padding-top: 20px; margin-bottom: 30px;}
+.person2{background-color: #D11013; margin-left: 600px; margin-right: 600px; padding-bottom: 5px; padding-top: 20px; margin-bottom: 30px;}
+.person3{background-color: #D11013; margin-left: 600px; margin-right: 600px; padding-bottom: 5px; padding-top: 20px; margin-bottom: 30px;}
+
+.speaker1{padding-top: 30px; padding-bottom: 30px; padding-top: 90px;}
+.speaker2{padding-top: 30px; padding-bottom: 30px;}
+.speaker3{padding-top: 30px; padding-bottom: 30px;}
+
+
+
+footer{font-size: 2em; text-align: center; background-color: #F5CB13; margin-right: 10%; margin-left: 10%;}
+footer h1{margin-bottom: -8px; padding-bottom: 10px; padding-top: 25px;}
+
+
+
+hr{max-width: 85%; background-color: black; height: 1px; border: none;}
