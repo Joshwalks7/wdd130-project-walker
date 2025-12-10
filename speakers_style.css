@@ -30,12 +30,6 @@ main p{max-width: 55%; margin: 0 auto;}
 .speaker2{padding-top: 30px; padding-bottom: 30px;}
 .speaker3{padding-top: 30px; padding-bottom: 30px;}
 
-
-
-footer{font-size: 2em; text-align: center; background-color: #F5CB13; margin-right: 10%; margin-left: 10%;}
-footer h1{margin-bottom: -8px; padding-bottom: 10px; padding-top: 25px;}
-
-
 .large_font{font-family: "BBH Sans Hegarty", sans-serif; font-weight: 400; font-style: normal;}
 
 hr{max-width: 85%; background-color: black; height: 1px; border: none;}
@@ -45,3 +39,15 @@ hr{max-width: 85%; background-color: black; height: 1px; border: none;}
 .speaker_img2{width: 75%;}
 
 .speaker_img3{width: 75%;}
+
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+footer p {
+    font-size: 1rem;
+}
